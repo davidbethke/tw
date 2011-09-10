@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Echo Form w/ Wicket</title>
+</head>
+<body>
+<span wicket:id='staticMsg'>Static Message Here</span>
+
+	<form wicket:id="form">
+		<input type="text" wicket:id='msgInput' value='' size=50 />
+		<input type="submit" value="set message" />
+	</form>
+	<span wicket:id='msg'id='msg'>Message Appears Here</span>
+
+</body>
+</html>
