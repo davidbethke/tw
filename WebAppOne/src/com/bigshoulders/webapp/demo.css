@@ -1,9 +1,10 @@
 body {
-  background: #123;
+  background: #ece3c1;
   color: #333;
   font-size: 11px;
   height: auto;
   padding-bottom: 20px;
+ 
 }
 
 a {
@@ -39,7 +40,7 @@ p {
 .container_24 {
   background-color: #fff;
   background-repeat: repeat-y;
-  margin-bottom: 20px;
+  
 }
 
 .container_12 {
@@ -52,4 +53,45 @@ p {
 
 .container_24 {
   background-image: url(24_col.gif);
+}
+#background
+{
+	background-color:#ece3c1
+}
+	
+
+#titleBkg
+{
+	
+	background-image:url(bkg1.gif);
+	background-repeat: repeat-x;
+}
+#title
+{
+	
+	background-image:url(bkg1.gif);
+	background-repeat: repeat-x;
+}
+#titleTagBkg
+{
+	background-image:url(bkg1.gif);
+	background-repeat: repeat-x;
+	
+}
+#titleTagContainer
+{
+	
+	background-image:url(bkg1.gif);
+	background-repeat: repeat-x;
+}
+#navContainer
+{
+	background-image:url(bkg1.gif);
+	background-repeat: repeat-x;
+}
+
+#sellOfferContainer
+{
+	background-image: url(bkg2.gif);
+	background-repeat: repeat-x;
 }
