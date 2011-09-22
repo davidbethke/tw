@@ -76,7 +76,7 @@ p {
 {
 	height:100px;
 	margin-top:50px;
-	margin-left:80px;
+	
 	
 	background-image: url(contactRing.gif);
 	background-repeat:no-repeat;
@@ -100,12 +100,33 @@ p {
 	background-image:url(bkg3.gif);
 	background-repeat: repeat-x;
 }
+#pictures,
+#about
+{
+	background-image:url(navBkg.gif);
+	background-repeat:no-repeat;
+}
+#order
+{
+	
+	background-image:url(navBkg.gif);
+	background-repeat:no-repeat;
+}
+
+
 
 #sellOfferContainer
 {
 	background-image: url(bkg2.gif);
 	background-repeat: repeat-x;
 }
+#sellOffer
+{
+	background-image:url(sellBkg.gif);
+	background-repeat: no-repeat;
+	min-width: 350px;
+}
+
 #thumbNailContainer
 {
 	background-image: url(bkg3.gif);
