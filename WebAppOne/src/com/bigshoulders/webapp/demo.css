@@ -36,23 +36,16 @@ p {
 }
 
 .container_12,
-.container_16,
-.container_24 {
+ {
   background-color: #fff;
   background-repeat: repeat-y;
   
 }
 
 .container_12 {
-  background-image: url(12_col.gif);
+  
 }
 
-.container_16 {
-  background-image: url(16_col.gif);
-}
-
-.container_24 {
-  background-image: url(24_col.gif);
 }
 #background
 {
@@ -72,26 +65,54 @@ p {
 	background-image:url(bkg1.gif);
 	background-repeat: repeat-x;
 }
-#titleTagBkg
+
+#logo
 {
-	background-image:url(bkg1.gif);
-	background-repeat: repeat-x;
+	height:200px;
+	background-image:url(logo.gif);
+	background-repeat:no-repeat;
+}
+#contact
+{
+	height:100px;
+	margin-top:50px;
+	margin-left:80px;
+	
+	background-image: url(contactRing.gif);
+	background-repeat:no-repeat;
+}
+
+#titleTag
+{
+	
+	background-image:url(titleTagBkg.gif);
+	background-repeat: no-repeat;
 	
 }
 #titleTagContainer
 {
 	
-	background-image:url(bkg1.gif);
+	background-image:url(bkg3.gif);
 	background-repeat: repeat-x;
 }
 #navContainer
 {
-	background-image:url(bkg1.gif);
+	background-image:url(bkg3.gif);
 	background-repeat: repeat-x;
 }
 
 #sellOfferContainer
 {
 	background-image: url(bkg2.gif);
+	background-repeat: repeat-x;
+}
+#thumbNailContainer
+{
+	background-image: url(bkg3.gif);
+	background-repeat: repeat-x;
+}
+#footerContainer
+{
+	background-image: url(bkg3.gif);
 	background-repeat: repeat-x;
 }
