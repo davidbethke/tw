@@ -56,20 +56,20 @@ p {
 #titleBkg
 {
 	
-	background-image:url(bkg1.gif);
+	background-image:url(img/bkg1.gif);
 	background-repeat: repeat-x;
 }
 #title
 {
 	
-	background-image:url(bkg1.gif);
+	background-image:url(img/bkg1.gif);
 	background-repeat: repeat-x;
 }
 
 #logo
 {
 	height:200px;
-	background-image:url(logo.gif);
+	background-image:url(img/logo.gif);
 	background-repeat:no-repeat;
 }
 #contact
@@ -79,47 +79,47 @@ p {
 	
 	
 	
-	background-image: url(contactRing.gif);
+	background-image: url(img/contactRing.gif);
 	background-repeat:no-repeat;
 }
 
 #titleTag
 {
 	
-	background-image:url(titleTagBkg.gif);
+	background-image:url(img/titleTagBkg.gif);
 	background-repeat: no-repeat;
 	
 }
 #titleTagContainer
 {
 	
-	background-image:url(bkg3.gif);
+	background-image:url(img/bkg2.gif);
 	background-repeat: repeat-x;
 }
 #topBar,
 #botBar
 {
-	margin-top:0px;
-	background-image:url(sepBar.gif);
+	margin-top:10px;
+	background-image:url(img/sepBar.gif);
 	background-repeat:no-repeat;
 	min-width:960px;
 	min-height:20px;
 }
 #navContainer
 {
-	background-image:url(bkg3.gif);
+	background-image:url(img/bkg2.gif);
 	background-repeat: repeat-x;
 }
 #pictures,
 #about
 {
-	background-image:url(navBkg.gif);
+	background-image:url(img/navBkg.gif);
 	background-repeat:no-repeat;
 }
 #order
 {
 	
-	background-image:url(navBkg.gif);
+	background-image:url(img/navBkg.gif);
 	background-repeat:no-repeat;
 }
 
@@ -127,33 +127,33 @@ p {
 
 #sellOfferContainer
 {
-	background-image: url(bkg2.gif);
+	background-image: url(img/bkg2.gif);
 	background-repeat: repeat-x;
 	min-height:400px;
 }
 #sellOffer
 {
-	background-image:url(offerRing.gif);
+	background-image:url(img/offerRing.gif);
 	background-repeat: no-repeat;
 	min-width: 350px;
 	min-height:350px;
 }
 #thumbNailPictures
 {
-	margin-top:50px;
-	background-image:url(thumbRing.gif);
+	
+	background-image:url(img/thumbRing.gif);
 	background-repeat: no-repeat;
-	min-height:250px;
+	min-height:150px;
 }
 
 #thumbNailContainer
 {
-	background-image: url(bkg3.gif);
+	background-image: url(img/bkg3.gif);
 	background-repeat: repeat-x;
-	height:auto;
+	
 }
 #footerContainer
 {
-	background-image: url(bkg3.gif);
+	background-image: url(img/bkg3.gif);
 	background-repeat: repeat-x;
 }

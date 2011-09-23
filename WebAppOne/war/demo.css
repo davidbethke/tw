@@ -1,9 +1,10 @@
 body {
-  background: #123;
+  background: #ece3c1;
   color: #333;
   font-size: 11px;
   height: auto;
   padding-bottom: 20px;
+ 
 }
 
 a {
@@ -35,21 +36,124 @@ p {
 }
 
 .container_12,
-.container_16,
-.container_24 {
+ {
   background-color: #fff;
   background-repeat: repeat-y;
-  margin-bottom: 20px;
+  
 }
 
 .container_12 {
-  background-image: url(12_col.gif);
+  
 }
 
-.container_16 {
-  background-image: url(16_col.gif);
+}
+#background
+{
+	background-color:#ece3c1
+}
+	
+
+#titleBkg
+{
+	
+	background-image:url(img/bkg1.gif);
+	background-repeat: repeat-x;
+}
+#title
+{
+	
+	background-image:url(img/bkg1.gif);
+	background-repeat: repeat-x;
 }
 
-.container_24 {
-  background-image: url(24_col.gif);
+#logo
+{
+	height:200px;
+	background-image:url(img/logo.gif);
+	background-repeat:no-repeat;
+}
+#contact
+{
+	height:100px;
+	margin-top:50px;
+	
+	
+	
+	background-image: url(img/contactRing.gif);
+	background-repeat:no-repeat;
+}
+
+#titleTag
+{
+	
+	background-image:url(img/titleTagBkg.gif);
+	background-repeat: no-repeat;
+	
+}
+#titleTagContainer
+{
+	
+	background-image:url(img/bkg2.gif);
+	background-repeat: repeat-x;
+}
+#topBar,
+#botBar
+{
+	margin-top:10px;
+	background-image:url(img/sepBar.gif);
+	background-repeat:no-repeat;
+	min-width:960px;
+	min-height:20px;
+}
+#navContainer
+{
+	background-image:url(img/bkg2.gif);
+	background-repeat: repeat-x;
+}
+#pictures,
+#about
+{
+	background-image:url(img/navBkg.gif);
+	background-repeat:no-repeat;
+}
+#order
+{
+	
+	background-image:url(img/navBkg.gif);
+	background-repeat:no-repeat;
+}
+
+
+
+#sellOfferContainer
+{
+	background-image: url(img/bkg2.gif);
+	background-repeat: repeat-x;
+	min-height:400px;
+}
+#sellOffer
+{
+	background-image:url(img/offerRing.gif);
+	background-repeat: no-repeat;
+	min-width: 350px;
+	min-height:350px;
+}
+#thumbNailPictures
+{
+	
+	background-image:url(img/thumbRing.gif);
+	background-repeat: no-repeat;
+	min-height:150px;
+}
+
+#thumbNailContainer
+{
+	background-image: url(img/bkg3.gif);
+	background-repeat: repeat-x;
+	
+}
+#footerContainer
+{
+	background-image: url(img/bkg3.gif);
+	background-repeat: repeat-x;
 }

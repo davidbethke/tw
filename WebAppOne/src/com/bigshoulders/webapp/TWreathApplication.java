@@ -9,7 +9,7 @@ public class TWreathApplication extends WicketApplication {
 	@Override
 	public Class<? extends Page> getHomePage() {
 		// TODO Auto-generated method stub
-		return TWreath.class;
+		return twreath3.class;
 	}
 	protected void init(){
 		getResourceSettings().setResourcePollFrequency(null);
