@@ -78,6 +78,7 @@ p {
 	margin-top:50px;
 	
 	
+	
 	background-image: url(contactRing.gif);
 	background-repeat:no-repeat;
 }
@@ -94,6 +95,15 @@ p {
 	
 	background-image:url(bkg3.gif);
 	background-repeat: repeat-x;
+}
+#topBar,
+#botBar
+{
+	margin-top:0px;
+	background-image:url(sepBar.gif);
+	background-repeat:no-repeat;
+	min-width:960px;
+	min-height:20px;
 }
 #navContainer
 {
@@ -119,18 +129,28 @@ p {
 {
 	background-image: url(bkg2.gif);
 	background-repeat: repeat-x;
+	min-height:400px;
 }
 #sellOffer
 {
-	background-image:url(sellBkg.gif);
+	background-image:url(offerRing.gif);
 	background-repeat: no-repeat;
 	min-width: 350px;
+	min-height:350px;
+}
+#thumbNailPictures
+{
+	margin-top:50px;
+	background-image:url(thumbRing.gif);
+	background-repeat: no-repeat;
+	min-height:250px;
 }
 
 #thumbNailContainer
 {
 	background-image: url(bkg3.gif);
 	background-repeat: repeat-x;
+	height:auto;
 }
 #footerContainer
 {
