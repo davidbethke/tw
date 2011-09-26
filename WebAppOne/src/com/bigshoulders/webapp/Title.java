@@ -1,7 +1,7 @@
 package com.bigshoulders.webapp;
 
 public class Title {
-	private String title="Texas Wreaths";
+	private String title="Austin Texas";
 	public Title(){
 		
 	}

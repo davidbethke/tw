@@ -1,7 +1,8 @@
 body {
-  background: #ece3c1;
-  color: #333;
+  background: #f4efda;
+  color: #f6b260;
   font-size: 11px;
+  font-c
   height: auto;
   padding-bottom: 20px;
  
@@ -32,7 +33,7 @@ p {
   border: 1px solid #666;
   overflow: hidden;
   padding: 10px 0;
-  text-align: center;
+  text-align: center; Demo
 }
 
 .container_12,
@@ -49,7 +50,7 @@ p {
 }
 #background
 {
-	background-color:#ece3c1
+	background-color:#f4efda
 }
 	
 
@@ -64,19 +65,21 @@ p {
 	
 	background-image:url(img/bkg1.gif);
 	background-repeat: repeat-x;
+	text-align: center;
 }
 
 #logo
 {
-	height:200px;
+	margin-top:20px;
+	height:125px;
 	background-image:url(img/logo.gif);
 	background-repeat:no-repeat;
 }
 #contact
 {
-	height:100px;
-	margin-top:50px;
-	
+	height:80px;
+	margin-top:65px;
+	color: #7a8b36;
 	
 	
 	background-image: url(img/contactRing.gif);
@@ -85,10 +88,11 @@ p {
 
 #titleTag
 {
-	
+	margin-top:20px;
 	background-image:url(img/titleTagBkg.gif);
 	background-repeat: no-repeat;
-	
+	min-height:30px;
+	text-align: center;
 }
 #titleTagContainer
 {
@@ -99,26 +103,30 @@ p {
 #topBar,
 #botBar
 {
-	margin-top:10px;
+	margin-top:20px;
+	
 	background-image:url(img/sepBar.gif);
 	background-repeat:no-repeat;
 	min-width:960px;
-	min-height:20px;
+	min-height:15px;
 }
 #navContainer
 {
+	
 	background-image:url(img/bkg2.gif);
 	background-repeat: repeat-x;
+	text-align:center;
 }
 #pictures,
 #about
 {
+	margin-top:20px;
 	background-image:url(img/navBkg.gif);
 	background-repeat:no-repeat;
 }
 #order
 {
-	
+	margin-top:20px;
 	background-image:url(img/navBkg.gif);
 	background-repeat:no-repeat;
 }
@@ -127,16 +135,31 @@ p {
 
 #sellOfferContainer
 {
+	color: #7a8b36;
 	background-image: url(img/bkg2.gif);
 	background-repeat: repeat-x;
 	min-height:400px;
 }
 #sellOffer
 {
+	margin-top:20px;
 	background-image:url(img/offerRing.gif);
 	background-repeat: no-repeat;
-	min-width: 350px;
 	min-height:350px;
+}
+#sellText,
+#sellPicture
+{
+	margin-top:60px;
+	min-height:100px;
+}
+#thumbNail1,
+#thumbNail2,
+#thumbNail3
+
+{
+	margin-top:40px;
+	
 }
 #thumbNailPictures
 {
@@ -148,12 +171,14 @@ p {
 
 #thumbNailContainer
 {
+	color: #7a8b36;
 	background-image: url(img/bkg3.gif);
 	background-repeat: repeat-x;
 	
 }
 #footerContainer
 {
+	color: #7a8b36;
 	background-image: url(img/bkg3.gif);
 	background-repeat: repeat-x;
 }

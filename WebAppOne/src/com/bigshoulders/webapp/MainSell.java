@@ -1,7 +1,7 @@
 package com.bigshoulders.webapp;
 
 public class MainSell {
-	private String mainSell="Im a new MainSell";
+	private String mainSell="HandCrafted in Texas";
 	private SizeSmall sizeSmall;
 	private SizeLarge sizeLarge;
 	private Offer offer;

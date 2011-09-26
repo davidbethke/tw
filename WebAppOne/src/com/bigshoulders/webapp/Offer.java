@@ -1,7 +1,7 @@
 package com.bigshoulders.webapp;
 
 public class Offer {
-	private String offer="Im an offer";
+	private String offer="PreOrder Now Guaranteed delivery Limited Quantities";
 	public Offer(){
 		// do nothing
 	}
