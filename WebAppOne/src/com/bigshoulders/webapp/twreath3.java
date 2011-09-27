@@ -1,19 +1,26 @@
 package com.bigshoulders.webapp;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.wicket.Component;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
+import org.apache.wicket.markup.repeater.RepeatingView;
 import org.apache.wicket.model.PropertyModel;
 
 public class twreath3 extends WebPage {
 	private Title title= new Title();
 	private TitleTag titleTag= new TitleTag();
+	
 	//private LeftSideBar leftSideBar= new LeftSideBar();
 	//private RightSideBar rightSideBar= new RightSideBar();
 	//private MainImg mainImg= new MainImg();
 	//private MainSell mainSell= new MainSell();
 	PropertyModel<String> titleModel ;
 	PropertyModel<String> titleTagModel;
-	//PropertyModel<String> leftSideBarModel;
+	//PropertyModel<String> le// try mainSellOffer embed
+	
 	//PropertyModel<String> rightSideBarModel;
 	
 	//PropertyModel<String> mainImgModel;
@@ -27,7 +34,18 @@ public class twreath3 extends WebPage {
 		initPropModels();
 		// add labels
 		initLabels();
-		
+		// try mainSellOffer embed
+		List<String> offerItems = new ArrayList<String>();
+		offerItems.add("PreOrder Now");
+		offerItems.add("Guaranteed Delivery");
+		offerItems.add("Limited Quantities");
+		RepeatingView rv = new RepeatingView("mainSellOffer");
+		int i=0;
+		for(String item : offerItems){
+			rv.add(new Label("item"+i, item));
+			i++;
+		}
+		add(rv);
 	}
 	private void initPropModels(){
 		this.titleModel = new PropertyModel<String>(title, "title");
@@ -49,6 +67,7 @@ public class twreath3 extends WebPage {
 		//add(new Label("rightSideBar",rightSideBarModel));
 		//add(new Label("mainImg",mainImgModel));
 		add(new MainSellPanel("mainSell"));
+		
 		//add(new MainImgPanel("mainImg"));
 		/*
 		add(new Label("mainSell",mainSellModel));

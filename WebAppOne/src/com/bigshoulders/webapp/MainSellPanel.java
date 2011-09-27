@@ -1,8 +1,13 @@
 package com.bigshoulders.webapp;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.wicket.markup.html.panel.Panel;
 import org.apache.wicket.model.PropertyModel;
 import org.apache.wicket.markup.html.basic.Label;
+
+import com.google.appengine.tools.info.RemoteVersionFactory;
 
 public class MainSellPanel extends Panel {
 /**
@@ -19,6 +24,7 @@ public MainSellPanel(String id){
 	mainSell= new MainSell();
 	initPropModels();
 	initLabels();
+	
 }
 private void initPropModels(){
 	this.smallSizeModel = new PropertyModel<String>(mainSell.getSizeSmall(), "sizeSmall");
@@ -31,5 +37,6 @@ private void initLabels(){
 	add(new Label("sizeSmall",smallSizeModel));
 	add(new Label("sizeLarge",largeSizeModel));
 	add(new Label("offer",offerModel));
+	
 }
 }

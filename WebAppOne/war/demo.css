@@ -53,6 +53,10 @@ p {
 	background-color:#f4efda
 }
 	
+li
+{
+	list-style:none;
+}
 
 #titleBkg
 {
