@@ -16,6 +16,6 @@ public class about extends WebPage {
 		this.titleTagModel = new PropertyModel<String>(titleTag, "titleTag");
 		add(new Label("title",titleModel));
 		add(new Label("titleTag",titleTagModel));
-		add(new Image("image","Beer.gif"));
+		
 	}
 }
