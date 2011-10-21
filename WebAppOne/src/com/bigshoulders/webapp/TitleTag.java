@@ -1,9 +1,14 @@
 package com.bigshoulders.webapp;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TitleTag {
+public class TitleTag implements Serializable {
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4508944073888399928L;
 private String titleTag="";
 private List<String> titleTagList;
 public TitleTag(){

@@ -1,6 +1,12 @@
 package com.bigshoulders.webapp;
 
-public class MainImg {
+import java.io.Serializable;
+
+public class MainImg implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3095996251027619000L;
 	private String mainImg = "Im a main image";
 	public MainImg(){
 		// do nothing

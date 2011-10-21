@@ -1,8 +1,14 @@
 package com.bigshoulders.webapp;
 
+import java.io.Serializable;
+
 import org.apache.wicket.markup.html.list.ListView;
 
-public class MainSell {
+public class MainSell implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5410787513209317140L;
 	private String mainSell="HandCrafted in Texas";
 	private SizeSmall sizeSmall;
 	private SizeLarge sizeLarge;

@@ -11,9 +11,12 @@ public class TWreathApplication extends WicketApplication {
 		// TODO Auto-generated method stub
 		return twreath3.class;
 	}
+	@Override
 	protected void init(){
+		super.init();
 		getResourceSettings().setResourcePollFrequency(null);
 	}
+	@Override
 	protected ISessionStore newSessionStore(){
 		return new HttpSessionStore(this);
 	}

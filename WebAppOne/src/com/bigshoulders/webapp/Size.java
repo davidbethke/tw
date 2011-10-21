@@ -1,6 +1,12 @@
 package com.bigshoulders.webapp;
 
-public class Size {
+import java.io.Serializable;
+
+public class Size implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7827168557145121082L;
 	private String size="Im a size";
 	public Size(){
 		// do nothing

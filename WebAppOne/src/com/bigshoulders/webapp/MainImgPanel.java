@@ -1,5 +1,7 @@
 package com.bigshoulders.webapp;
 
+import java.io.Serializable;
+
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.image.Image;
 import org.apache.wicket.markup.html.panel.Panel;
