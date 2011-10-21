@@ -31,7 +31,7 @@ public class ProductPage extends WebPage {
 	void initProductList(){
 		products.add(product);
 		products.add(new Product("Tiny Tex","beautifull you should buy it","$99.99","RedWrthM.jpg"));
-		products.add(new Product("Lil Tex","Great Wreath","$49.99","WoodWrth WLightsM.jpg"));
+		products.add(new Product("Tex","Lighted Wreath","$79.99","WoodWrthWLightsM.jpg"));
 		products.add(new Product("Tex","Lighted Wreath","$79.99","GreenWrth WLightsM.jpg"));
 		RepeatingView rv = new RepeatingView("product");
 		int i=0;
