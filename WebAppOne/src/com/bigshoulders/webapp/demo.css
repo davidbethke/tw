@@ -124,7 +124,7 @@ p {
 }
 
 
-
+#pictureContainer
 #sellOfferContainer
 {
 	background-image: url(img/bkg2.gif);
@@ -150,6 +150,7 @@ p {
 {
 	background-image: url(img/bkg3.gif);
 	background-repeat: repeat-x;
+	padding-top: 0px;
 	
 }
 #footerContainer

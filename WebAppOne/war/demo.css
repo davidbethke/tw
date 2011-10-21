@@ -21,7 +21,8 @@ h1 {
   font-family: Georgia, serif;
   font-weight: normal;
   padding-top: 20px;
-  text-align: center;
+  background-image: url(img/bkg2.gif);
+	background-repeat: repeat-x;text-align: center;
 }
 
 h2 {
@@ -40,7 +41,8 @@ p {
  {
   background-color: #fff;
   background-repeat: repeat-y;
-  
+  background-image: url(img/bkg2.gif);
+	background-repeat: repeat-x;
 }
 
 .container_12 {
@@ -70,6 +72,7 @@ li
 	background-image:url(img/bkg1.gif);
 	background-repeat: repeat-x;
 	text-align: center;
+	
 }
 
 #logo
@@ -88,6 +91,10 @@ li
 	
 	background-image: url(img/contactRing.gif);
 	background-repeat:no-repeat;
+}
+#contactText
+{
+	margin-top:30px;
 }
 
 #titleTag
@@ -134,9 +141,15 @@ li
 	background-image:url(img/navBkg.gif);
 	background-repeat:no-repeat;
 }
+#aboutInfo
+{
+	margin-top:60px;
+	margin-left:120px;
+	margin-right:auto;
 
-
-
+	min-height:350px;
+}
+#pictureContainer,
 #sellOfferContainer
 {
 	color: #7a8b36;
@@ -155,19 +168,21 @@ li
 #sellPicture
 {
 	margin-top:60px;
-	min-height:100px;
+	min-height:100px;	margin-left:auto;
+	
 }
 #thumbNail1,
 #thumbNail2,
 #thumbNail3
 
 {
-	margin-top:40px;
+	margin-top:25px;
+	margin-left:0px;
 	
 }
 #thumbNailPictures
 {
-	
+	padding-top:0px;
 	background-image:url(img/thumbRing.gif);
 	background-repeat: no-repeat;
 	min-height:150px;
@@ -176,6 +191,7 @@ li
 #thumbNailContainer
 {
 	color: #7a8b36;
+	padding-top:0px;
 	background-image: url(img/bkg3.gif);
 	background-repeat: repeat-x;
 	

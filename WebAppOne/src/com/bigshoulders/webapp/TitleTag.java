@@ -21,7 +21,7 @@ public void setTitleTag(String titleTag){
 	this.titleTag=titleTag;
 }
 private void fillList(){
-	titleTagList.add("The Original");
+	titleTagList.add("The Original Texas Wreath");
 	titleTagList.add("As Big as Texas!");
 	titleTagList.add("Texas Proud");
 	titleTagList.add("Deep in the Heart of Texas");
@@ -29,6 +29,6 @@ private void fillList(){
 	titleTagList.add("Feliz Navidad, Y'all!");
 }
 private String getRandomTag(){
-	return titleTagList.get(1);
+	return titleTagList.get(0);
 }
 }

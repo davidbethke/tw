@@ -6,6 +6,7 @@ import java.util.List;
 import org.apache.wicket.Component;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
+import org.apache.wicket.markup.html.image.Image;
 import org.apache.wicket.markup.repeater.RepeatingView;
 import org.apache.wicket.model.PropertyModel;
 
@@ -46,6 +47,11 @@ public class twreath3 extends WebPage {
 			i++;
 		}
 		add(rv);
+		//add(new Image("image","Beer.gif"));
+		add (new Image("mediumImage","SilverWrthM.jpg"));
+		add (new Image("smallImage1","RedWrthS3.jpg"));
+		add (new Image("smallImage2","GreenWrth WLightsS3.jpg"));
+		add (new Image("smallImage3","WoodWrth WLightsS3.jpg"));
 	}
 	private void initPropModels(){
 		this.titleModel = new PropertyModel<String>(title, "title");
