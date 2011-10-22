@@ -17,6 +17,7 @@ public class ProductPanel extends Panel {
 	 */
 	private static final long serialVersionUID = 1108951389979185127L;
 	private Product mainSell;
+	private char size;
 	/*
 	PropertyModel<String> nameModel;
 	PropertyModel<String> descriptionModel;
@@ -25,10 +26,12 @@ public class ProductPanel extends Panel {
 public ProductPanel(Product p,String id){
 	super(id);
 	mainSell= p;
+	size=p.getSize();
 	//initPropModels();
 	initLabels();
 	add (new Image("image",mainSell.getImageName()));
-	
+	initPayPal();
+	//add(new PayPalTiny("paypal"));
 }
 
 private void initLabels(){
@@ -43,11 +46,28 @@ private void initLabels(){
 		i++;
 	}
 	add(rv);
+
 	/*
 	add(new Label("mainSell",mainSellModel));
 	add(new Label("sizeSmall",smallSizeModel));
 	add(new Label("sizeLarge",largeSizeModel));
 	add(new Label("offer",offerModel));
 	*/
+	}
+private void initPayPal(){
+	switch (size) {
+	case 'T':
+		add(new PayPalTiny("paypal"));
+		break;
+	case 'L':
+		add(new PayPalLil("paypal"));
+		break;
+	case 'R':
+		add(new PayPalReg("paypal"));
+		break;
+
+	default:
+		break;
+	}
 }
 }

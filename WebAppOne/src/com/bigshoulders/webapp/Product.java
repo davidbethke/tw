@@ -12,14 +12,16 @@ public class Product implements Serializable {
     private String description;
     private String price;
     private String imageName;
+    char size;
     public Product(){
     	//default no arg constructor
     }
-    public Product(String n, String d, String p, String iN){
+    public Product(String n, String d, String p, String iN,char s){
     	name=n;
     	description=d;
     	price=p;
     	imageName=iN;
+    	size=s;
     }
     // getters/setters
     public String getName(){
@@ -46,5 +48,11 @@ public class Product implements Serializable {
     }
     public void setImageName(String n){
     	imageName=n;
+    }
+    public void setSize(char s){
+    	size=s;
+    }
+    public char getSize(){
+    	return size;
     }
 }

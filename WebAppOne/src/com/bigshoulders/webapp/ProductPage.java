@@ -18,7 +18,7 @@ public class ProductPage extends WebPage {
 	List<Product> products;
 	public ProductPage(){
 		// do nothing constructor
-		product= new Product("Tiny Tex","beautifull you should buy it","$99.99","SilverWrthM.jpg");
+		product= new Product("Tiny Tex","beautifull you should buy it","$99.99","SilverWrthM.jpg",'T');
 		products = new ArrayList<Product>();
 		//add (new ProductPanel(product, "product"));
 		initProductList();
@@ -30,9 +30,9 @@ public class ProductPage extends WebPage {
 	}
 	void initProductList(){
 		products.add(product);
-		products.add(new Product("Tiny Tex","beautifull you should buy it","$99.99","RedWrthM.jpg"));
-		products.add(new Product("Tex","Lighted Wreath","$79.99","WoodWrthWLightsM.jpg"));
-		products.add(new Product("Tex","Lighted Wreath","$79.99","GreenWrth WLightsM.jpg"));
+		products.add(new Product("Tiny Tex","beautifull you should buy it","$99.99","RedWrthM.jpg",'T'));
+		products.add(new Product("Tex","Lighted Wreath","$79.99","WoodWrthWLightsM.jpg",'L'));
+		products.add(new Product("Tex","Lighted Wreath","$79.99","GreenWrth WLightsM.jpg",'R'));
 		RepeatingView rv = new RepeatingView("product");
 		int i=0;
 		for(Product itemProduct : products){
