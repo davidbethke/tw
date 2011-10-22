@@ -11,6 +11,7 @@
 	<static-files>
 	<include path="/**.gif"/>
 	<include path="/**.css"/>
+	<include path="/**.ico"/>
 	</static-files>
 	
 </appengine-web-app>

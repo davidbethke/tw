@@ -166,6 +166,13 @@ li
 	min-height:400px;
 	
 }
+#bkgOverlay
+{
+	color: #7a8b36;
+	background-image: url(img/bkg2.gif);
+	background-repeat: repeat;
+}
+	
 #sellOffer
 {
 	margin-top:20px;
