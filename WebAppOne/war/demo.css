@@ -157,6 +157,15 @@ li
 	background-repeat: repeat-x;
 	min-height:400px;
 }
+#picture,
+#productContainer
+{
+	color: #7a8b36;
+	background-image: url(img/bkg2.gif);
+	background-repeat: repeat-x;
+	min-height:400px;
+	
+}
 #sellOffer
 {
 	margin-top:20px;
