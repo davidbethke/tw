@@ -15,6 +15,7 @@ public class TWreathApplication extends WicketApplication {
 	protected void init(){
 		super.init();
 		getResourceSettings().setResourcePollFrequency(null);
+		getMarkupSettings().setStripWicketTags(true);
 	}
 	@Override
 	protected ISessionStore newSessionStore(){
