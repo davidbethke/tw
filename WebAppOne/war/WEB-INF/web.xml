@@ -4,6 +4,7 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	
 	<servlet>
 		<servlet-name>WebAppOne</servlet-name>
 		<servlet-class>com.bigshoulders.webapp.WebAppOneServlet</servlet-class>
@@ -54,7 +55,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</filter>
 	<filter-mapping>
 		<filter-name>WicketFilter3</filter-name>
-		<url-pattern>/twreath/*</url-pattern>
+		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 	
 
