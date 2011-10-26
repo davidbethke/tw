@@ -14,7 +14,7 @@ public class Offer implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 2422235484855022764L;
-	private String offer="$59.99";
+	private String offer="";
 	
 	public Offer(){
 		// do nothing

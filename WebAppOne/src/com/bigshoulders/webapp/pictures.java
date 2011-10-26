@@ -22,9 +22,16 @@ public class pictures extends WebPage {
 		add(new Label("titleTag",titleTagModel));
 		List<String> offerItems = new ArrayList<String>();
 		offerItems.add("SilverWrth.jpg");
-		offerItems.add("WoodWrth WLights.jpg");
+		offerItems.add("WoodWrthWLights.jpg");
 		offerItems.add("GreenWrth WLights.jpg");
 		offerItems.add("RedWrth.jpg");
+		offerItems.add("tinytexWBslvrM.gif");
+		offerItems.add("TexRedHood1M.gif");
+		offerItems.add("treeWBM.gif");
+		offerItems.add("texWBLightsM.gif");
+		offerItems.add("texhood1M.gif");
+
+
 
 		RepeatingView rv = new RepeatingView("image");
 		int i=0;

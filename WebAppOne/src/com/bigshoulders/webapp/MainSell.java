@@ -9,7 +9,7 @@ public class MainSell implements Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = -5410787513209317140L;
-	private String mainSell="HandCrafted in Texas";
+	private String mainSell="";
 	private SizeSmall sizeSmall;
 	private SizeLarge sizeLarge;
 	private Offer offer;

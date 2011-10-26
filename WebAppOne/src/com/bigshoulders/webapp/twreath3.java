@@ -37,9 +37,9 @@ public class twreath3 extends WebPage {
 		initLabels();
 		// try mainSellOffer embed
 		List<String> offerItems = new ArrayList<String>();
-		offerItems.add("PreOrder Now");
-		offerItems.add("Guaranteed Delivery");
-		offerItems.add("Limited Quantities");
+		offerItems.add("Handmade in Texas");
+		offerItems.add("Unique Gift");
+		offerItems.add("We Don't Do Round!");
 		RepeatingView rv = new RepeatingView("mainSellOffer");
 		int i=0;
 		for(String item : offerItems){
@@ -47,11 +47,11 @@ public class twreath3 extends WebPage {
 			i++;
 		}
 		add(rv);
-		//add(new Image("image","Beer.gif"));
+		
 		add (new Image("mediumImage","SilverWrthM.jpg"));
-		add (new Image("smallImage1","RedWrthS3.jpg"));
-		add (new Image("smallImage2","GreenWrth WLightsS3.jpg"));
-		add (new Image("smallImage3","WoodWrth WLightsS3.jpg"));
+		add (new Image("smallImage1","texWBLightsS.gif"));
+		add (new Image("smallImage2","TexRedHood1S.gif"));
+		add (new Image("smallImage3","tinysilverRv3S.gif"));
 	}
 	private void initPropModels(){
 		this.titleModel = new PropertyModel<String>(title, "title");
