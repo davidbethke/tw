@@ -16,6 +16,9 @@ public class TWreathApplication extends WicketApplication {
 		super.init();
 		getResourceSettings().setResourcePollFrequency(null);
 		getMarkupSettings().setStripWicketTags(true);
+		mountBookmarkablePage("/Product", ProductPage.class);
+		mountBookmarkablePage("/Pictures", pictures.class);
+		mountBookmarkablePage("/About", about.class);
 	}
 	@Override
 	protected ISessionStore newSessionStore(){
