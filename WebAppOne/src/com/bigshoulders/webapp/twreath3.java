@@ -20,7 +20,7 @@ public class twreath3 extends WebPage {
 	//private MainSell mainSell= new MainSell();
 	PropertyModel<String> titleModel ;
 	PropertyModel<String> titleTagModel;
-	//PropertyModel<String> le// try mainSellOffer embed
+	//PropertyModel<String> // try mainSellOffer embed
 	
 	//PropertyModel<String> rightSideBarModel;
 	
@@ -51,7 +51,7 @@ public class twreath3 extends WebPage {
 		add (new Image("mediumImage","SilverWrthM.jpg"));
 		add (new Image("smallImage1","texWBLightsS.gif"));
 		add (new Image("smallImage2","TexRedHood1S.gif"));
-		add (new Image("smallImage3","tinysilverRv3S.gif"));
+		add (new Image("smallImage3","tinysilverRv3S2.gif"));
 	}
 	private void initPropModels(){
 		this.titleModel = new PropertyModel<String>(title, "title");
