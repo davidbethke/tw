@@ -3,11 +3,13 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="wicket"/>
 	<classpathentry kind="src" path="wicket.pages"/>
-	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/home/davidbethke/Downloads/apacheWicket/apache-wicket-1.4.18/lib/wicket-1.4.18.jar"/>
 	<classpathentry kind="lib" path="/usr/share/java/slf4j-api-1.5.11.jar"/>
 	<classpathentry kind="lib" path="/usr/share/java/slf4j-log4j12-1.5.11.jar"/>
 	<classpathentry kind="lib" path="/usr/share/java/log4j-1.2-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/home/davidbethke/Downloads/junitbook2/ch13-ajax/ch13-jsunit/jsunit/java/lib/javax/javax.servlet.jar"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/App Engine (2)"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/App Engine"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

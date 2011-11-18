@@ -22,6 +22,7 @@ public class pictures extends WebPage {
 		add(new Label("titleTag",titleTagModel));
 		List<String> offerItems = new ArrayList<String>();
 		offerItems.add("SilverWrth.jpg");
+		offerItems.add("tinselWreath.jpg");
 		offerItems.add("WoodWrthWLights.jpg");
 		offerItems.add("GreenWrth WLights.jpg");
 		offerItems.add("RedWrth.jpg");
