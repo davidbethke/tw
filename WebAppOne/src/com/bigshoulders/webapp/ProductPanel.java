@@ -65,6 +65,9 @@ private void initPayPal(){
 	case 'R':
 		add(new PayPalReg("paypal"));
 		break;
+	case 'S':
+		add(new PayPalTins("paypal"));
+		break;
 
 	default:
 		break;
