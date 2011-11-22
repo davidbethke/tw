@@ -48,7 +48,7 @@ public class twreath3 extends WebPage {
 		}
 		add(rv);
 		
-		add (new Image("mediumImage","SilverWrthM.jpg"));
+		add (new Image("mediumImage","gotwreathM.jpg"));
 		add (new Image("smallImage1","texWBLightsS.gif"));
 		add (new Image("smallImage2","TexRedHood1S.gif"));
 		add (new Image("smallImage3","tinysilverRv3S2.gif"));
